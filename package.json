@@ -1,0 +1,22 @@
+{
+  "name": "paidou",
+  "version": "0.0.1",
+  "description": "site vitrine de paidou",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-connect": "^5.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "gulp-connect": "^5.0.0",
+    "gulp-less": "^3.3.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "rbc",
+  "license": "ISC"
+}
