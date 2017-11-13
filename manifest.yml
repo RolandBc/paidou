@@ -1,0 +1,6 @@
+applications:
+- name: paidou
+  memory: 256M
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  instances: 1
+  disk_quota: 256M
