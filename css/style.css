@@ -4744,7 +4744,7 @@ a:hover {
   display: block;
   /* 1 */
   color: #303030;
-  font-size: 16px;
+  font-size: 18px;
   font-family: paidou, sans-serif;
   font-weight: 400;
   margin-right: 13px;
@@ -6800,7 +6800,7 @@ select {
   text-transform: uppercase;
   padding: inherit!important;
   display: block;
-  background: #bbdfdd;
+  background: #f6d35b;
   border-radius: 50px;
   margin-bottom: 5px!important;
   border: 1px solid transparent!important;
@@ -6808,7 +6808,7 @@ select {
 }
 
 .main_sl .box_sliders .tit_btn .btn_go:before {
-  content: "\f38e";
+  /* content: "\f38e"; */
   font-size: 20px;
   margin-right: 15px;
   font-family: "ionicons";
@@ -6816,9 +6816,9 @@ select {
 }
 
 .main_sl .box_sliders .tit_btn .btn_go:hover {
-  border-color: #bbdfdd !important;
+  border-color: #f6d35b !important;
   background: #ffffff;
-  color: #bbdfdd;
+  color: #f6d35b;
 }
 
 .main_sl .box_sliders .add_ {
@@ -6932,7 +6932,7 @@ select {
 }
 
 .ht_footer .footer_ {
-  min-height: 589px;
+  min-height: 250px;
   background: url(../images/bg_footer.png) repeat-y top center;
   background-size: 100%;
   position: relative;
@@ -8861,6 +8861,12 @@ select {
   padding-bottom: 87px;
 }
 
+@media (min-width: 1200px) {
+  .about_services {
+    margin-top: 200px;
+  }
+}
+
 .about_services .item_sv {
   text-align: center;
   float: left;
@@ -10058,7 +10064,7 @@ select {
   margin-left: 8px;
   font-family: Lato, sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .page_class_single .sidebar .popular .box li sup {
@@ -14766,11 +14772,13 @@ select {
   padding-bottom: 140px;
 }
 
+.about_services .class_title,
 ._section_classes .class_title {
   text-align: center;
   margin-bottom: 70px;
 }
 
+.about_services .class_title h3,
 ._section_classes .class_title h3 {
   font-size: 48px;
   color: #303030;
@@ -14779,6 +14787,7 @@ select {
   margin-bottom: 15px;
 }
 
+.about_services .class_title,
 ._section_classes .class_title h4 {
   /* font-family: "Grand Hotel", cursive; */
   font-family: paidou;
@@ -15087,7 +15096,8 @@ select {
 
 ._section_classes .all_classes {
   text-transform: uppercase;
-  color: #f6d35b;
+  color: #ffffff;
+  background-color: #f6d35b;
   border: 1px solid #f6d35b;
   height: 50px;
   width: 263px;
@@ -15102,7 +15112,7 @@ select {
 }
 
 ._section_classes .all_classes:after {
-  content: "\f38e";
+  /* content: "\f38e"; */
   font-family: "ionicons";
   position: absolute;
   left: 80%;
@@ -15112,8 +15122,8 @@ select {
 }
 
 ._section_classes .all_classes:hover {
-  background: #bbdfdd;
-  color: #ffffff;
+  /* background: #bbdfdd; */
+  /* color: #ffffff; */
 }
 
 ._section_classes .all_classes:hover:after {
