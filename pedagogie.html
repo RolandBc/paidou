@@ -38,8 +38,6 @@
 </head>
 
 <body>
-
-
     <!-- BEGIN | Header -->
     <header id="ht_header" class="flw">
         <!-- top -->
@@ -110,10 +108,10 @@
                                     <a href="creches.html" role="button" class="menu-link">Nos crèches</a>
                                 </li>
                                 <li class="menu-item has-dropdown">
-                                    <a href="pedagogie.html" role="button" class="menu-link">Pédagogie</a>
+                                    <a role="button" class="menu-link set_active">Pédagogie</a>
                                 </li>
                                 <li class="menu-item has-dropdown">
-                                    <a href="inscription.html" role="button" class="menu-link  set_active">Réservation</a>
+                                    <a href="inscription.html" role="button" class="menu-link">Réservation</a>
                                 </li>
                                 <li class="menu-item">
                                     <a href="contact.html" class="menu-link">Contact</a>
@@ -130,7 +128,7 @@
         <div class="category_ flw">
             <div class="container">
                 <div class="left_">
-                    <h1>Inscription
+                    <h1>Pédagogie
                         <span></span>
                     </h1>
                 </div>
@@ -141,127 +139,146 @@
     <!-- END | Header -->
 
 
-    <main id="main" class="page_content page_event">
-        <!-- event detail -->
-        <div class="event_detail flw">
+    <main id="main" class="page_content page_pedagogie">
+        <!-- section featured -->
+        <div class="_section_featured flw _section_classes">
             <div class="container">
-                <div class="top_fly flw">
-                    <!-- <div class="fly_carousel">
-                        <span class="tl_"></span>
-                        <span class="tr_"></span>
-                        <span class="bl_"></span>
-                        <span class="br_"></span>
-                        <div class="fly_crs">
-                            <div class="item_crs">
-                                <a href="#">
-                                    <img src="images/upload/pro.png" alt="img event">
-                                </a>
-                            </div>
-                            <div class="item_crs">
-                                <a href="#">
-                                    <img src="images/upload/pro.png" alt="img event">
-                                </a>
-                            </div>
-                            <div class="item_crs">
-                                <a href="#">
-                                    <img src="images/upload/pro.png" alt="img event">
-                                </a>
-                            </div>
+                <div class="class_title">
+                    <h3>Notre Pédagogie</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <span class="_fl ion-bug"></span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="_it_feat">
+                            <h3>
+                                Pédagogie Active</h3>
+                            <p>La participation active de l’enfant à son développement est au centre de notre pédagogie.
+                                En étant acteur de ses apprentissages, l’enfant s’épanouit par lui-même et laisse libre
+                                cours à ses capacités sous le regard et l’accompagnement bienveillant de l’adulte</p>
                         </div>
-                    </div> -->
-                    <div class="fly_calendar">
-                        <a href="#" class="name_">Formulaire de Pré-inscription</a>
-                        <!-- <ul class="date_">
-                            <li>Septembre 2017 - Juin 2018</li>
-                            <li class="loca_">32 rue de lablon, 78450 Asnières</li>
-                        </ul> -->
-                        <form action="https://formspree.io/rolandbasset@hotmail.fr" method="POST" class="fly_form">
-                            <div class="form_enfant">
-                                <h3>Votre enfant</h3>
-                                <div class="box_">
-                                    <label>
-                                        <span>(*)</span>Prénom</label>
-                                    <input type="text" name="prenom" required>
-                                </div>
-                                <div class="box_">
-                                    <label>
-                                        <span>(*)</span>Nom</label>
-                                    <input type="text" name="nom" required>
-                                </div>
-                                <div class="box_">
-                                    <label>
-                                        <span>(*)</span>Date de naissance</label>
-                                    <input type="date" name="birthday" required>
-                                </div>
-                                <div class="box_">
-                                    <label>
-                                        <span>(*)</span>Date d'arrivée à la crèche</label>
-                                    <input type="date" name="birthday" required>
-                                </div>
-                                <div class="box_ select_">
-                                    <label>Nombre de jours par semaine</label>
-                                    <select>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form_parent">
-                                <h3>Vos coordonnées</h3>
-                                <div class="box_">
-                                    <label>
-                                        <span>(*)</span>Prénom</label>
-                                    <input type="text" name="prenom" required>
-                                </div>
-                                <div class="box_">
-                                    <label>
-                                        <span>(*)</span>Nom</label>
-                                    <input type="text" name="nom" required>
-                                </div>
-                                <div class="box_">
-                                    <label>
-                                        <span>(*)</span>E-mail</label>
-                                    <input type="text" name="_replyto" required>
-                                </div>
-                                <div class="box_">
-                                    <label>
-                                        <span>(*)</span>Téléphone</label>
-                                    <input type="text" name="tel" required>
-                                </div>
-                                <div class="box_">
-                                    <label>
-                                        <span>(*)</span>Code Postal</label>
-                                    <input type="text" required>
-                                </div>
-                                <div class="box_">
-                                    <label>
-                                        <span>(*)</span>Ville</label>
-                                    <input type="text" name="ville" required>
-                                </div>
-                            </div>
-                            <ul class="btn_">
-                                <li>
-                                    <button type="submit" value="Send">Envoyer</button>
-                                </li>
-                            </ul>
-                        </form>
+                    </div>
+                    <div class="col-sm-1">
+                        <span class="_fl ion-easel"></span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="_it_feat">
+                            <h3>
+                                Respecter le rythme et les capacités de chacun</h3>
+                            <p>Notre équipe de professionnels de la petite enfance a pour objectif d’accompagner les enfants
+                                dans leur développement en respectant le rythme et les capacités de chacun. Lors des activités,
+                                des repas et des moments de sieste, chaque enfant est laissé libre de ses choix</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <span class="_fl ion-icecream"></span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="_it_feat">
+                            <h3>
+                                La réference
+                            </h3>
+                            <p>Chaque professionnel est référent d’un groupe de trois ou quatre enfants maximum. Un lien privilégié
+                                est créé entre ce groupe d’enfants et le professionnel en question. Ce-dernier s’occupe
+                                spécifiquement des soins de l’enfant (change, repas, sommeil, etc.). Il assure une continuité
+                                et une stabilité pour l’enfant en l’absence de ses parents</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-1">
+                        <span class="_fl ion-earth"></span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="_it_feat">
+                            <h3>
+                                La période d'adaptation
+                            </h3>
+                            <p>A son arrivée dans notre micro-crèche, nous prévoyons une période d’adaptation pour l’enfant.
+                                Le but est d’accompagner l’enfant et sa famille dans un processus de familiarisation à la
+                                collectivité en créant progressivement un climat de confiance dans un environnement rassurant
+                                et sécurisant</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end event detail -->
+        <div class="_section_featured flw _section_classes">
+            <div class="container">
+                <div class="class_title">
+                    <h3>Une Journée à la crèche</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <span class="_fl ion-bug"></span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="_it_feat">
+                            <h3> L’accueil du matin</h3>
+                            <p>Un professionnel se rend disponible pour l’accueil de l’enfant et de sa famille. Un temps de
+                                communication et d’échanges est prévu de façon à recueillir les informations nécessaires
+                                au bon déroulement de la journée (repas, sommeil, etc.) et celles relatives à tout changement
+                                significatif qu’ils jugeront importants de transmettre</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-1">
+                        <span class="_fl ion-easel"></span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="_it_feat">
+                            <h3>Les repas</h3>
+                            <p>Nous proposons des menus respectant l’équilibre alimentaire (en quantité et en qualité) en
+                                favorisant des produits bio, locaux et des fruits et légumes de saison</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <span class="_fl ion-icecream"></span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="_it_feat">
+                            <h3> Le sommeil
+                            </h3>
+                            <p>Nous avons deux salles de repos : une pour les petits et une autre pour les plus grands. Pour
+                                un enfant qui ne souhaite pas dormir, nous proposons un temps calme de 30 à 45 minutes dans
+                                son lit accompagné d’un adulte. Des livres et des histoires lui seront proposés.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-1">
+                        <span class="_fl ion-earth"></span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="_it_feat">
+                            <h3>
+                                Les activités
+                            </h3>
+                            <p>En ce qui concerne les bébés, l’équipe de professionnels veille particulièrement au respect
+                                du rythme et des besoins de chacun. La découverte sensorielle se fait progressivement. L’espace
+                                dans lequel ils évoluent est soigneusement pensé.</p>
+                            <p>Pour les plus grands, les activités seront choisies de façon à favoriser l’éveil et le développement
+                                ; elles évolueront en fonction des capacités de chacun. Les enfants sont accompagnés à
+                                faire leurs propres expériences avec des activités libres. Les jeux sont à la disposition
+                                des enfants et rangés de façon symbolique (garage, dinette, poupées, etc.). Les jeux d’imitation
+                                permettent de rejouer les émotions de l’enfant.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end section featured -->
     </main>
+
 
     <footer class="ht_footer flw">
         <div class="footer_ flw">
             <div class="container">
                 <!-- <div class="box_register flw">
-                        <span>Visit us to day to explore best of kinder garten in New York!</span>
-                        <a href="#" class="btn_reg">REGISTER NOW</a>
-                    </div> -->
+					<span>Visit us to day to explore best of kinder garten in New York!</span>
+					<a href="#" class="btn_reg">REGISTER NOW</a>
+				</div> -->
                 <div class="footer_main flw">
                     <div class="row">
                         <div class="col-md-3 col-lg-3">
@@ -313,7 +330,6 @@
         </div>
     </footer>
 
-
     <!-- JS files -->
     <script src="js/jquery.js"></script>
     <!-- smooth scroll -->
@@ -344,8 +360,23 @@
     <!-- menu sticky -->
     <script src="js/uikit.min.js"></script>
     <script src="js/sticky.menu.js"></script>
+    <!-- wow js -->
+    <!-- <script src="js/wow.min.js"></script> -->
     <!-- custom -->
     <script src="js/custom.js"></script>
+    <!-- custom slider -->
+    <script src="js/slider/jquery.themepunch.tools.min.js"></script>
+    <script src="js/slider/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/slider/revolution.extension.actions.min.js"></script>
+    <script src="js/slider/revolution.extension.carousel.min.js"></script>
+    <script src="js/slider/revolution.extension.kenburn.min.js"></script>
+    <script src="js/slider/revolution.extension.layeranimation.min.js"></script>
+    <script src="js/slider/revolution.extension.migration.min.js"></script>
+    <script src="js/slider/revolution.extension.navigation.min.js"></script>
+    <script src="js/slider/revolution.extension.parallax.min.js"></script>
+    <script src="js/slider/revolution.extension.slideanims.min.js"></script>
+    <script src="js/slider/revolution.extension.video.min.js"></script>
+    <script src="js/slider/custom_slider.js"></script>
 </body>
 
 </html>
