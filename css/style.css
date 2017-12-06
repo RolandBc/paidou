@@ -6835,7 +6835,7 @@ select {
     bottom: 0;
     content: "";
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .main_sl .box_sliders .circle_text {
@@ -8910,6 +8910,23 @@ select {
     margin-bottom: 25px;
 }
 
+.about_services .item_sv .icon_pedagogie {
+    float: left;
+    text-align: center;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.about_services .item_sv .icon_pedagogie img {
+    /* float: left; */
+    text-align: center;
+    width: 30%;
+}
+
+.index_pedagogie .name_ {
+    width: 100%;
+}
+
 .about_services .item_sv .icon_:before {
     font-family: kinder!important;
     color: #bbdfdd;
@@ -8934,8 +8951,8 @@ select {
 
 .about_services .item_sv .name_ {
     font-size: 24px;
-    color: #bbdfdd;
-    font-weight: 300;
+    color: #f6d35b;
+    font-weight: 500;
     transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
@@ -11291,6 +11308,8 @@ select {
     font-size: 48px;
     float: left;
     margin-top: -8px;
+    text-align: center;
+    width: 100%;
 }
 
 .event_detail .top_fly .fly_calendar .name_:hover {
@@ -16250,17 +16269,21 @@ select {
 .fly_form .form_enfant {
     width: 50%;
     float: left;
+    padding-left: 10%;
 }
 
 .fly_form .form_parent {
     width: 50%;
     float: left;
+    padding-left: 10%;
 }
 
 .fly_form h3 {
     width: 50%;
     color: #fff;
     margin-bottom: 20px;
+    text-align: center;
+    margin-left: 10%;
 }
 
 
