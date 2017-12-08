@@ -8915,6 +8915,7 @@ select {
     text-align: center;
     margin-bottom: 25px;
     width: 100%;
+    min-height: 110px;
 }
 
 .about_services .item_sv .icon_pedagogie img {
@@ -15167,6 +15168,24 @@ select {
     position: relative;
 }
 
+.index_pedagogie .button {
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #f6d35b;
+    border: 1px solid #f6d35b;
+    height: 50px;
+    width: 263px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 48px;
+    position: relative;
+    margin-top: 80px;
+}
+
 ._section_classes .all_classes:after {
     /* content: "\f38e"; */
     font-family: "ionicons";
@@ -16291,3 +16310,23 @@ select {
     text-align: center;
     width: 100%;
 } */
+
+.jaune {
+    color: #f6d35b;
+}
+
+.rose {
+    color: #f5c1b6;
+}
+
+.bleu {
+    color: #bbdfdd;
+}
+
+.rose-pale {
+    color: #edd7c9;
+}
+
+.logo-footer {
+    height: 100px;
+}
