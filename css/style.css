@@ -4652,7 +4652,7 @@ a:hover {
     display: inline-block;
     padding: 1.25rem 1rem;
     border: 0;
-    background-color: #e74c3c;
+    background-color: #bbdfdd;
     position: absolute;
     right: 0;
 }
@@ -6760,9 +6760,9 @@ select {
 
 .main_sl .box_sliders .tit_main {
     font-family: Lato, sans-serif;
-    color: #ffffff;
+    color: #454545;
     line-height: 1!important;
-    border-bottom: 1px solid #ffffff !important;
+    border-bottom: 1px solid #454545 !important;
     position: relative;
     min-height: 121px!important;
     padding-top: 25px!important;
@@ -6774,7 +6774,8 @@ select {
     top: 0;
     left: 0;
     height: 1px;
-    background: #ffffff;
+    background: #454545;
+    /* background: #ffffff; */
     position: absolute;
 }
 
@@ -6782,9 +6783,10 @@ select {
     content: "";
     width: 30.77%;
     top: 0;
-    right: 0;
+    right: -15px;
     height: 1px;
-    background: #ffffff;
+    background: #454545;
+    /* background: #ffffff; */
     position: absolute;
 }
 
@@ -6835,11 +6837,11 @@ select {
     bottom: 0;
     content: "";
     position: absolute;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0);
 }
 
 .main_sl .box_sliders .circle_text {
-    color: #ffffff;
+    color: #000000;
     font-family: "Grand Hotel", cursive;
     font-weight: 400;
     padding: 7px 0!important;
@@ -8916,12 +8918,15 @@ select {
     margin-bottom: 25px;
     width: 100%;
     min-height: 110px;
+    display: flex;
+    align-items: center;
 }
 
 .about_services .item_sv .icon_pedagogie img {
     /* float: left; */
     text-align: center;
     width: 30%;
+    margin-left: 35%;
 }
 
 .index_pedagogie .name_ {
@@ -11135,7 +11140,17 @@ select {
 }
 
 .event_main_view .date_ li.loca_:before {
-    content: "\f2cd";
+    content: "\f456";
+    font-size: 18px;
+}
+
+.event_main_view .date_ li.berceau_ {
+    width: 100%;
+    margin-right: 0;
+}
+
+.event_main_view .date_ li.berceau_:before {
+    content: "\f39e";
     font-size: 18px;
 }
 
@@ -11212,7 +11227,7 @@ select {
 .event_detail .top_fly {
     padding: 40px;
     background: #454545;
-    height: 730px;
+    height: 820px;
     border-radius: 20px;
 }
 
@@ -14163,7 +14178,8 @@ select {
     }
     .top_menu .lg {
         top: 115px;
-        width: 94px;
+        /* width: 94px; */
+        width: 150px;
         height: 50px;
     }
     .top_menu .appoint {
@@ -14743,6 +14759,14 @@ select {
 
 .page_pedagogie ._section_featured {
     padding-bottom: 10px;
+}
+
+.page_pedagogie ._section_featured .icon_pedagogie .small {
+    height: 65px;
+}
+
+.page_pedagogie ._section_featured .icon_pedagogie .medium {
+    height: 90px;
 }
 
 ._section_featured .row {
@@ -16303,6 +16327,75 @@ select {
     margin-bottom: 20px;
     text-align: center;
     margin-left: 10%;
+}
+
+
+/* for mobile */
+
+@media (max-width: 991px) {
+    .fly_form .form_enfant {
+        width: 100%;
+        padding-left: 0%;
+    }
+    .fly_form .form_parent {
+        width: 100%;
+        padding-left: 0%;
+    }
+    .fly_form h3 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .page_pedagogie ._section_featured .icon_pedagogie {
+        height: 65px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .page_pedagogie ._section_featured .icon_pedagogie img {
+        height: 65px;
+    }
+    .page_pedagogie ._section_featured .icon_pedagogie .medium {
+        height: 80px;
+    }
+    .page_pedagogie ._section_featured h3 {
+        text-align: center;
+    }
+    .page_index .index_pedagogie .icon_pedagogie img {
+        height: 70px;
+        display: block;
+        width: auto;
+        margin: auto;
+    }
+    .about_services {
+        padding-top: 0px;
+    }
+    .container {
+        padding-bottom: 15px;
+    }
+    .event_main_view {
+        padding-bottom: 50px;
+    }
+    .event_detail {
+        padding-bottom: 50px;
+    }
+    .contact_page .box_info .spt .item_spt {
+        height: 220px;
+    }
+    .category_ {
+        min-height: 110px;
+    }
+    .category_ .left_ {
+        padding-top: 30px;
+    }
+    .category_ .left_ h1 {
+        font-size: 40px;
+    }
+    /* .top_section .top_box {
+        display: none;
+    }
+    .top_menu {
+        height: 200px;
+        padding-top: 10px;
+    } */
 }
 
 
