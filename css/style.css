@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* ---------------- TABLE OF CONTENT ----------------------
 	-----------------------------------------------------------
 	-----------------------------------------------------------
@@ -25,7 +24,6 @@
 	-----------------------------------------------------------
 	-----------------------------------------------------------
 ------------------- END TABLE OF CONTENT ------------------*/
-
 
 /* I. FRAMEWORK
 ***********************/
@@ -4060,13 +4058,10 @@ button.close {
     }
 }
 
-
 /* I. REFERENCES */
-
 
 /* II. GENERAL
 ***********************/
-
 
 /*--------------------------------------------------------------
 Reset
@@ -4225,7 +4220,6 @@ a:active {
 a img {
     border: 0;
 }
-
 
 /*--------------------------------------------
 Initial Setup
@@ -4535,7 +4529,6 @@ del {
     opacity: 0.8;
 }
 
-
 /* Placeholder text color -- selectors need to be separate to work. */
 
 ::-webkit-input-placeholder {
@@ -4576,10 +4569,8 @@ a:hover {
     -moz-transition-duration: 0.3s;
 }
 
-
 /* III. COMPONENT
 ***********************/
-
 
 /***************** Menu ******************/
 
@@ -4603,7 +4594,6 @@ a:hover {
     /* 3 */
 }
 
-
 /* 1. Show when `.is-visible` class is added */
 
 .nav-container.is-visible {
@@ -4622,7 +4612,7 @@ a:hover {
 }
 
 .nav-container.is-visible .menu-item:last-child {
-    border-bottom: 0!important;
+    border-bottom: 0 !important;
 }
 
 .nav-container.is-visible .menu-item .menu-link {
@@ -4643,7 +4633,6 @@ a:hover {
     color: #bbdfdd;
 }
 
-
 /* Nav toggle */
 
 .nav-toggle {
@@ -4657,7 +4646,6 @@ a:hover {
     right: 0;
 }
 
-
 /* Nav toggle icon */
 
 .nav-toggle .icon-menu {
@@ -4668,7 +4656,6 @@ a:hover {
     vertical-align: middle;
     fill: none;
 }
-
 
 /* Nav toggle icon lines */
 
@@ -4685,13 +4672,11 @@ a:hover {
     background-color: #fff;
 }
 
-
 /* Nav toggle icon line 1 */
 
 .icon-menu .line-1 {
     top: 0;
 }
-
 
 /* When active, rotate line 1 to be lefthand part of X */
 
@@ -4701,7 +4686,6 @@ a:hover {
     transform: translateY(8px) translateX(0) rotate(45deg);
 }
 
-
 /* Nav toggle icon line 2 */
 
 .icon-menu .line-2 {
@@ -4709,20 +4693,17 @@ a:hover {
     margin-top: -2px;
 }
 
-
 /* When active, hide line 2 */
 
 .is-active .icon-menu .line-2 {
     opacity: 0;
 }
 
-
 /* Nav toggle icon line 3 */
 
 .icon-menu .line-3 {
     bottom: 0;
 }
-
 
 /* When active, rotate line 3 to be righthand part of X */
 
@@ -4755,7 +4736,6 @@ a:hover {
     color: #bbdfdd;
 }
 
-
 /* 1. Menu items with dropdowns appear clickable */
 
 .has-dropdown {
@@ -4764,13 +4744,11 @@ a:hover {
     /* 1 */
 }
 
-
 /* 1. Parent menu links inlined so you can toggle the dropdown */
 
 .has-dropdown>.menu-link {
     display: inline-block;
 }
-
 
 /* 1. Add an icon to menu items that have sub menus */
 
@@ -4783,8 +4761,9 @@ a:hover {
     content: "+";
     /* 1 */
     color: #bbdfdd;
+    width: 35px;
+    padding-left: 10px;
 }
-
 
 /* 1. Switch icon to n-dash when toggled */
 
@@ -4802,7 +4781,6 @@ a:hover {
     border-bottom: 1px dashed #303030 !important;
 }
 
-
 /* 1. Show dropdown when toggled */
 
 .has-dropdown.is-active>.nav-dropdown {
@@ -4812,7 +4790,6 @@ a:hover {
 .is-active>.menu-link {
     color: #bbdfdd;
 }
-
 
 /* 2nd level dropdown */
 
@@ -4916,13 +4893,13 @@ a:hover {
     }
     .nav-dropdown .menu-item {
         border-bottom: 1px dashed #ffffff !important;
-        background: #bbdfdd;
-        border: 0!important;
+        background: #f6d35b;
+        border: 0 !important;
         float: left;
         width: 100%;
     }
     .nav-dropdown .menu-item:last-of-type .menu-link {
-        border-bottom: 0!important;
+        border-bottom: 0 !important;
     }
     .nav-dropdown .menu-item .menu-link {
         border-bottom: 1px dashed #ffffff;
@@ -4959,9 +4936,7 @@ a:hover {
     }
 }
 
-
 /*************** End Menu*****************/
-
 
 /*****************  Slider *******************/
 
@@ -4974,7 +4949,6 @@ a:hover {
     max-width: 100%;
     display: block;
 }
-
 
 /** THEME
 ===================================*/
@@ -4996,7 +4970,6 @@ a:hover {
     width: 100%;
 }
 
-
 /* LOADER */
 
 .bx-wrapper .bx-loading {
@@ -5009,7 +4982,6 @@ a:hover {
     left: 0;
     z-index: 2000;
 }
-
 
 /* PAGER */
 
@@ -5047,12 +5019,11 @@ a:hover {
     background: #000;
 }
 
-
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 @media (max-width: 991px) {
     .bx-controls {
-        left: 0!important;
+        left: 0 !important;
         top: 50px;
     }
     .bx-controls .bx-controls-direction {
@@ -5120,7 +5091,6 @@ a:hover {
     display: none;
 }
 
-
 /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
@@ -5132,7 +5102,6 @@ a:hover {
     right: 0;
     width: 35px;
 }
-
 
 /***************** End  Slider ******************/
 
@@ -5164,7 +5133,7 @@ a:hover {
 }
 
 .acc_active .acc_head {
-    background: #bbdfdd!important;
+    background: #bbdfdd !important;
 }
 
 .accordion_in {
@@ -5243,7 +5212,6 @@ a:hover {
     content: "\f209";
     color: #ffffff;
 }
-
 
 /* Slider */
 
@@ -5369,7 +5337,6 @@ a:hover {
     text-transform: capitalize;
 }
 
-
 /* ====================================================================================================================
 * BASE STYLES
 * ====================================================================================================================*/
@@ -5467,7 +5434,7 @@ html[xmlns] .flexslider .slides {
 .gallery #carousel .slides li {
     border: 5px solid #f6f6f6;
     border-radius: 5px;
-    width: 90px!important;
+    width: 90px !important;
     height: 90px;
 }
 
@@ -5580,7 +5547,7 @@ html[xmlns] .flexslider .slides {
 }
 
 .flex-direction-nav .flex-disabled {
-    opacity: 0!important;
+    opacity: 0 !important;
     filter: alpha(opacity=0);
     cursor: default;
     z-index: -1;
@@ -5731,7 +5698,7 @@ html[xmlns] .flexslider .slides {
     animation-name: uk-fade;
     -webkit-animation-duration: .8s;
     animation-duration: .8s;
-    -webkit-animation-timing-function: linear!important;
+    -webkit-animation-timing-function: linear !important;
     animation-timing-function: linear !important;
 }
 
@@ -6338,7 +6305,6 @@ html[xmlns] .flexslider .slides {
     margin-bottom: 0;
 }
 
-
 /******************************
 	-	IE8 HACKS	-
 *******************************/
@@ -6434,7 +6400,6 @@ html[xmlns] .flexslider .slides {
     clear: both;
 }
 
-
 /* Text align
 --------------------------*/
 
@@ -6484,10 +6449,8 @@ select {
     -webkit-border-radius: 0 !important;
 }
 
-
 /* IV. SKELETON
 ***********************/
-
 
 /************************HEADER*************************/
 
@@ -6761,11 +6724,11 @@ select {
 .main_sl .box_sliders .tit_main {
     font-family: Lato, sans-serif;
     color: #454545;
-    line-height: 1!important;
+    line-height: 1 !important;
     border-bottom: 1px solid #454545 !important;
     position: relative;
-    min-height: 121px!important;
-    padding-top: 25px!important;
+    min-height: 121px !important;
+    padding-top: 25px !important;
 }
 
 .main_sl .box_sliders .tit_main:before {
@@ -6803,13 +6766,13 @@ select {
     font-family: Lato, sans-serif;
     color: #ffffff;
     text-transform: uppercase;
-    padding: inherit!important;
+    padding: inherit !important;
     display: block;
     background: #f6d35b;
     border-radius: 50px;
-    margin-bottom: 5px!important;
-    border: 1px solid transparent!important;
-    transition: 0.5s!important;
+    margin-bottom: 5px !important;
+    border: 1px solid transparent !important;
+    transition: 0.5s !important;
 }
 
 .main_sl .box_sliders .tit_btn .btn_go:before {
@@ -6844,7 +6807,7 @@ select {
     color: #000000;
     font-family: "Grand Hotel", cursive;
     font-weight: 400;
-    padding: 7px 0!important;
+    padding: 7px 0 !important;
 }
 
 .main_sl .box_sliders .title_main_2 {
@@ -6860,7 +6823,7 @@ select {
 .main_sl .box_sliders .welcome_ {
     color: #ffffff !important;
     font-family: "Grand Hotel", cursive;
-    line-height: inherit!important;
+    line-height: inherit !important;
 }
 
 .main_sl .box_sliders .welcome_ .big_1 {
@@ -6879,20 +6842,20 @@ select {
 }
 
 .main_sl .box_sliders .tit_btn_2 {
-    text-align: center!important;
+    text-align: center !important;
 }
 
 .main_sl .box_sliders .tit_btn_2 .btn_go {
     font-family: Lato, sans-serif;
     color: #5fcde3;
     text-transform: uppercase;
-    padding: inherit!important;
+    padding: inherit !important;
     display: block;
-    margin-bottom: 5px!important;
+    margin-bottom: 5px !important;
     background: none;
     border-radius: 50px;
-    border: 1px solid #5fcde3!important;
-    transition: 0.5s!important;
+    border: 1px solid #5fcde3 !important;
+    transition: 0.5s !important;
 }
 
 .main_sl .box_sliders .tit_btn_2 .btn_go:before {
@@ -6909,7 +6872,7 @@ select {
 }
 
 .main_sl .box_sliders .tit_btn_3 {
-    text-align: center!important;
+    text-align: center !important;
 }
 
 .main_sl .box_sliders .tit_btn_3 .btn_go {
@@ -6917,11 +6880,11 @@ select {
     color: #bbdfdd;
     text-transform: uppercase;
     display: block;
-    margin-bottom: 10px!important;
+    margin-bottom: 10px !important;
     background: #ffffff;
     border-radius: 50px;
-    border: 0!important;
-    transition: 0.5s!important;
+    border: 0 !important;
+    transition: 0.5s !important;
 }
 
 .main_sl .box_sliders .tit_btn_3 .btn_go:before {
@@ -7275,7 +7238,6 @@ select {
     text-decoration: underline;
 }
 
-
 /* V. PART
 ***********************/
 
@@ -7414,7 +7376,7 @@ select {
 }
 
 .hpage .appointment .form_ input[type="text"] {
-    padding-right: 30px!important;
+    padding-right: 30px !important;
     float: left;
     width: 100%;
     border: 0;
@@ -8934,7 +8896,7 @@ select {
 }
 
 .about_services .item_sv .icon_:before {
-    font-family: kinder!important;
+    font-family: kinder !important;
     color: #bbdfdd;
     font-size: 66px;
     line-height: 1;
@@ -10000,7 +9962,6 @@ select {
     color: #777777;
 }
 
-
 /* .page_class_single .leftview .letter .content b {
     color: #bbdfdd;
 } */
@@ -10077,11 +10038,11 @@ select {
 }
 
 .page_class_single .sidebar .popular .box li:first-child {
-    border-top: 0!important;
+    border-top: 0 !important;
 }
 
 .page_class_single .sidebar .popular .box li:last-child {
-    border-bottom: 0!important;
+    border-bottom: 0 !important;
 }
 
 .page_class_single .sidebar .popular .box li:nth-child(odd) {
@@ -13050,7 +13011,7 @@ select {
 }
 
 .page_blog .blog_single_content .content_view .box_comments .comments_ .user_ava:hover img {
-    border-radius: 0!important;
+    border-radius: 0 !important;
     transition-duration: 0.3s;
 }
 
@@ -13216,7 +13177,7 @@ select {
 }
 
 .page_blog .blog_single_content .content_view .box_comments .comments_:last-of-type .box_bb_ {
-    border-bottom: 0!important;
+    border-bottom: 0 !important;
 }
 
 .page_blog .blog_single_content .content_view .box_comments .more_cmts {
@@ -13380,27 +13341,27 @@ select {
         left: 30%;
     }
     ._section_item ._box_item .medal_ h3 {
-        font-size: 25px!important;
+        font-size: 25px !important;
     }
     ._section_item ._box_item .btn_read {
-        bottom: 20px!important;
+        bottom: 20px !important;
     }
     ._section_classes .classes_it .box_suma .sumary_ p {
         height: 100px;
         overflow: hidden;
     }
     ._section_classes .classes_it .box_suma .name_ {
-        font-size: 25px!important;
+        font-size: 25px !important;
     }
     .box_event .container {
         width: 100%;
     }
     ._section_teacher .box_teacher .box_item .teacher_info {
-        width: 100%!important;
-        background-size: 100%!important;
+        width: 100% !important;
+        background-size: 100% !important;
     }
     ._section_teacher .box_teacher .box_item .teacher_info a {
-        font-size: 20px!important;
+        font-size: 20px !important;
     }
     .ht_footer .footer_ .footer_main .info li {
         font-size: 12px;
@@ -13422,8 +13383,8 @@ select {
         margin-right: 25px;
     }
     .hpage .appointment .form_ label {
-        width: 100%!important;
-        margin-right: 0!important;
+        width: 100% !important;
+        margin-right: 0 !important;
     }
     .hpage_3 .home_featured .name_ {
         font-size: 22px;
@@ -13547,11 +13508,11 @@ select {
         width: 87.367%;
     }
     .page_blog .blog_single_content .content_view .levae_cmt .req {
-        width: 100%!important;
-        margin-left: 0!important;
+        width: 100% !important;
+        margin-left: 0 !important;
     }
     .event_main_view .box_img img {
-        height: 100%;
+        /* height: 100%; */
         transform: scale(1.2, 1);
         -webkit-transform: scale(1.2, 1);
         -moz-transform: scale(1.2, 1);
@@ -13584,16 +13545,16 @@ select {
         padding-top: 37px;
     }
     .hd_sub [data-uk-sticky].uk-active .nav-dropdown {
-        padding-top: 13px!important;
+        padding-top: 13px !important;
     }
 }
 
 @media (max-width: 991px) {
     #ht_header {
-        height: auto!important;
+        height: auto !important;
     }
     .v2_header [data-uk-sticky].uk-active .top_menu {
-        padding-top: 0!important;
+        padding-top: 0 !important;
         padding-top: 0;
     }
     .v2_header [data-uk-sticky].uk-active .top_menu .calendar {
@@ -13603,7 +13564,7 @@ select {
         top: 1.5px;
     }
     .hpage .v2_header .top_menu {
-        padding-top: 47px!important;
+        padding-top: 47px !important;
     }
     [data-uk-sticky].uk-active .top_menu .nav .nav-container {
         top: 15px;
@@ -13639,7 +13600,7 @@ select {
         border-bottom: 1px dashed #bbdfdd !important;
     }
     .asp>.nav-dropdown .menu-item:last-of-type {
-        border-bottom: 0!important;
+        border-bottom: 0 !important;
     }
     .asp>.nav-dropdown .menu-item .menu-link {
         color: #bbdfdd;
@@ -13664,7 +13625,7 @@ select {
         text-align: center;
     }
     .top_section .top_box {
-        width: 100%!important;
+        width: 100% !important;
     }
     .top_menu .appoint {
         font-weight: 400;
@@ -13685,20 +13646,20 @@ select {
         top: -7.5px;
     }
     ._section_item ._box_item {
-        background-size: 100%!important;
-        border-radius: 0!important;
+        background-size: 100% !important;
+        border-radius: 0 !important;
     }
     ._section_item ._box_item:hover {
-        border-radius: 0!important;
+        border-radius: 0 !important;
     }
     ._section_item ._box_item:hover:before {
-        border-radius: 0!important;
+        border-radius: 0 !important;
     }
     ._section_featured {
-        padding-bottom: 30px!important;
+        padding-bottom: 30px !important;
     }
     ._section_teacher {
-        height: auto!important;
+        height: auto !important;
         background: url(../images/slide2.jpg) no-repeat;
         background-size: cover;
     }
@@ -13716,24 +13677,24 @@ select {
         clear: both;
     }
     ._section_teacher .box_teacher .box_item .teacher_info {
-        background-size: inherit!important;
+        background-size: inherit !important;
     }
     ._section_teacher .box_teacher .box_item .teacher_info a {
-        margin-top: 40px!important;
+        margin-top: 40px !important;
     }
     ._section_teacher .container {
         position: relative;
         z-index: 5;
     }
     ._section_gallery .gallery_content .element-item {
-        width: 48.7175%!important;
+        width: 48.7175% !important;
     }
     ._section_counter {
-        height: auto!important;
-        padding: 30px 0!important;
+        height: auto !important;
+        padding: 30px 0 !important;
     }
     ._section_testim {
-        height: auto!important;
+        height: auto !important;
         background: url(../images/slide3.jpg) no-repeat;
         background-size: cover;
     }
@@ -13755,10 +13716,10 @@ select {
         margin-bottom: 50px;
     }
     ._section_testim .box_location {
-        background-size: 100%!important;
+        background-size: 100% !important;
     }
     ._section_event {
-        height: auto!important;
+        height: auto !important;
         background: url(../images/slide4.jpg) no-repeat;
         background-size: cover;
     }
@@ -13897,7 +13858,7 @@ select {
         padding: 0 15px;
     }
     .hpage .home_pricing .item_main .icon_bug {
-        margin-bottom: 20px!important;
+        margin-bottom: 20px !important;
     }
     .hpage .home_pricing .item_main .dot_ dd {
         margin: 10px 0;
@@ -14084,8 +14045,8 @@ select {
 
 @media (max-width: 768px) {
     .main_sl .box_sliders .tit_main {
-        min-height: inherit!important;
-        border: 0!important;
+        min-height: inherit !important;
+        border: 0 !important;
     }
     .main_sl .box_sliders .tit_main:before {
         content: none;
@@ -14154,6 +14115,9 @@ select {
 }
 
 @media (max-width: 720px) {
+    .uk-sticky-placeholder {
+        height: 95px !important;
+    }
     .top_section .top_box .top_list li {
         float: left;
         width: 100%;
@@ -14170,14 +14134,14 @@ select {
         margin-left: 0;
     }
     .top_menu {
-        height: 170px;
+        height: 70px;
         padding-top: 118px;
     }
     .top_menu .nav .nav-container {
         top: 22px;
     }
     .top_menu .lg {
-        top: 115px;
+        top: 5px;
         /* width: 94px; */
         width: 150px;
         height: 50px;
@@ -14189,7 +14153,7 @@ select {
         top: 6px;
     }
     .hpage .v2_header .top_menu {
-        padding-top: 120px!important;
+        padding-top: 120px !important;
         height: 190px;
     }
     .hpage .v2_header .top_menu .nav .nav-container {
@@ -14243,7 +14207,7 @@ select {
     h5,
     h6,
     a {
-        white-space: inherit!important;
+        white-space: inherit !important;
     }
     .category_ .left_ {
         width: 100%;
@@ -14341,16 +14305,16 @@ select {
         width: 100%;
     }
     .gutter-sizer {
-        width: 0!important;
+        width: 0 !important;
     }
     ._section_gallery {
-        padding-bottom: 0!important;
+        padding-bottom: 0 !important;
     }
     ._section_gallery .gallery_nav button {
         margin-bottom: 10px;
     }
     ._section_gallery .gallery_content .element-item {
-        width: 100%!important;
+        width: 100% !important;
     }
     ._section_gallery .gallery_content .element-item .gallery_item {
         width: 100%;
@@ -14365,31 +14329,31 @@ select {
         margin-top: 20px;
     }
     ._section_question {
-        min-height: inherit!important;
+        min-height: inherit !important;
         height: auto;
-        padding-bottom: 100px!important;
+        padding-bottom: 100px !important;
     }
     ._section_question .q_title h3 {
-        font-size: 24px!important;
+        font-size: 24px !important;
     }
     .testim_title h3 {
-        font-size: 30px!important;
+        font-size: 30px !important;
     }
     .testim_title h4 {
-        font-size: 24px!important;
+        font-size: 24px !important;
     }
     .teacher_title h2 {
-        font-size: 30px!important;
+        font-size: 30px !important;
     }
     .teacher_title h3 {
-        font-size: 24px!important;
+        font-size: 24px !important;
     }
     ._section_classes {
-        padding-bottom: 40px!important;
-        padding-top: 40px!important;
+        padding-bottom: 40px !important;
+        padding-top: 40px !important;
     }
     ._section_item ._box_item {
-        background-size: cover!important;
+        background-size: cover !important;
     }
     ._section_item ._box_item .medal_ h3 {
         margin-top: 10px;
@@ -14398,13 +14362,13 @@ select {
     .title_ h3,
     .gallery_title h3,
     .class_title h3 {
-        font-size: 30px!important;
+        font-size: 30px !important;
     }
     .title_l h4,
     .title_ h4,
     .gallery_title h4,
     .class_title h4 {
-        font-size: 24px!important;
+        font-size: 24px !important;
     }
     .hpage .ht_footer .footer_ .box_register {
         position: static;
@@ -14416,14 +14380,14 @@ select {
         padding-bottom: 100px;
     }
     ._section_testim .testim_vd {
-        height: auto!important;
-        padding-bottom: 50px!important;
+        height: auto !important;
+        padding-bottom: 50px !important;
     }
     ._section_testim .box_location {
-        background: none!important;
+        background: none !important;
     }
     ._section_testim .box_location .location_ {
-        padding: 30px!important;
+        padding: 30px !important;
     }
     ._section_testim .box_location .location_ li:last-of-type a {
         bottom: 30px;
@@ -14443,41 +14407,41 @@ select {
         width: 125px;
     }
     ._section_testim .testim_vd p {
-        max-width: 100%!important;
+        max-width: 100% !important;
     }
     ._section_event .bx-wrapper .bx-viewport {
-        height: auto!important;
+        height: auto !important;
     }
     ._section_event .box_event .event_cs .event_item {
-        height: auto!important;
-        padding-bottom: 50px!important;
+        height: auto !important;
+        padding-bottom: 50px !important;
     }
     ._section_event .box_event .event_cs .event_item .event_content {
-        padding-top: 15px!important;
-        padding-bottom: 50px!important;
-        height: auto!important;
+        padding-top: 15px !important;
+        padding-bottom: 50px !important;
+        height: auto !important;
     }
     ._section_event .box_event .event_cs .event_item .event_content dl {
         margin-top: 10px;
     }
     ._section_event .box_event .event_cs .event_item .event_content dl dt {
-        width: 100%!important;
+        width: 100% !important;
         margin-bottom: 5px;
     }
     ._section_event .box_event .event_cs .event_item .event_content dl dd {
-        width: 100%!important;
+        width: 100% !important;
     }
     ._section_event .box_event .event_cs .event_item .event_content h3 a {
-        font-size: 24px!important;
+        font-size: 24px !important;
     }
     ._section_event .box_event .event_cs .event_item .event_content>a {
-        bottom: 20px!important;
+        bottom: 20px !important;
     }
     ._section_event .event_title h3 {
-        font-size: 24px!important;
+        font-size: 24px !important;
     }
     ._section_event .event_title h4 {
-        font-size: 20px!important;
+        font-size: 20px !important;
     }
 }
 
@@ -14495,7 +14459,6 @@ select {
     font-family: paidou-light;
     src: url(../fonts/santeliascriptaltexlight.otf);
 }
-
 
 /***************************Style***************************/
 
@@ -14533,7 +14496,6 @@ select {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
-
 
 /***********************  MAIN  **************************/
 
@@ -14825,12 +14787,12 @@ select {
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     /* Safari 5+ ONLY */
-     ::i-block-chrome,
+    ::i-block-chrome,
     .wave {
-        height: 12px!important;
+        height: 12px !important;
         background: url(../images/wave.png) repeat-x;
     }
-     ::i-block-chrome,
+    ::i-block-chrome,
     .classes_it .box_img img {
         -webkit-transform: scale(1) !important;
     }
@@ -14850,6 +14812,48 @@ select {
     background: #f8f8f8;
     padding-top: 110px;
     /* padding-bottom: 140px; */
+}
+
+.page_tarifs ._section_classes {
+    background: #f8f8f8;
+    padding-top: 110px;
+    /* padding-bottom: 140px; */
+}
+
+.page_tarifs .left-border {
+    border-left: 1px solid #777;
+}
+
+.page_entreprises ._section_classes {
+    background: #f8f8f8;
+    padding-top: 110px;
+    /* padding-bottom: 140px; */
+}
+
+.page_entreprises ._section_classes .class_title h3 {
+    font-size: 36px;
+}
+
+.page_entreprises .about_services {
+    margin-top: 0px;
+    padding-top: 25px;
+}
+
+.page_entreprises .about_services .icon_pedagogie img:first-child {
+    width: 20%;
+}
+
+.page_entreprises .item_sv p {
+    width: 100%;
+    text-align: center;
+}
+
+.page_entreprises ._section_featured {
+    padding-bottom: 50px;
+}
+
+.page_entreprises .list-block {
+    padding-top: 30px;
 }
 
 .about_services .class_title,
@@ -15988,7 +15992,6 @@ select {
     /* 50 */
 }
 
-
 /* ACTIVITY INDICATION */
 
 #imagelightbox-loading,
@@ -16057,7 +16060,6 @@ select {
         transform: scale(0.75);
     }
 }
-
 
 /* OVERLAY */
 
@@ -16329,10 +16331,22 @@ select {
     margin-left: 10%;
 }
 
-
 /* for mobile */
 
+@media (max-width: 768px) {
+    .picto_pedagogie_size {
+        width: auto;
+        float: none;
+    }
+}
+
 @media (max-width: 991px) {
+    .top_section {
+        display: none;
+    }
+    .top_menu {
+        padding-top: 20px;
+    }
     .fly_form .form_enfant {
         width: 100%;
         padding-left: 0%;
@@ -16397,7 +16411,6 @@ select {
         padding-top: 10px;
     } */
 }
-
 
 /* .fly_calendar .name_ {
     text-align: center;
