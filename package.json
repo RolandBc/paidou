@@ -4,7 +4,9 @@
   "description": "site vitrine de paidou",
   "main": "index.js",
   "dependencies": {
-    "mustache": "^2.3.0"
+    "browserify": "^16.2.0",
+    "mustache": "^2.3.0",
+    "uniq": "^1.0.1"
   },
   "engines": {
     "node": "8.9.4",

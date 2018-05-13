@@ -1,13 +1,17 @@
-// const Mustache = require('mustache');
+var unique = require('uniq');
+var Mustache = require('mustache');
 
-const test = {
+var data = [1, 2, 2, 3, 4, 5, 5, 5, 6];
+
+console.log(unique(data));
+
+
+var test = {
     firstName: "Arnold",
     lastName: "BC"
 }
 
-const template = "<h1>{{firstName}} {{lastName}}</h1>";
-// const html = Mustache.to_html(template, person);
-const html = "salut les noms";
-const sampleArea = document.getElementById('sampleArea');
-console.log(document.getElementById('sampleArea'));
-// document.getElementById('sampleArea').html(html);
+var template = "<h1>{{firstName}} {{lastName}}</h1>";
+var html = Mustache.to_html(template, test);
+var sampleArea = document.getElementById('sampleArea');
+// sampleArea.innerHTML = html;
