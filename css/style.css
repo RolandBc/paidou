@@ -10022,6 +10022,14 @@ select {
     margin-bottom: 72px;
 }
 
+.page_class_single .sidebar .popular_custom {
+    height: auto !important;
+    background: #bbdfdd;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 72px;
+}
+
 .page_class_single .sidebar .popular .box {
     color: #ffffff;
     border: 3px dotted #7cc7c2;
@@ -10033,7 +10041,7 @@ select {
 .page_class_single .sidebar .popular .box li {
     font-family: "Grand Hotel", cursive;
     font-size: 24px;
-    height: 84px;
+    /* height: 84px; */
     line-height: 84px;
 }
 
@@ -16435,4 +16443,8 @@ select {
 
 .logo-footer {
     height: 100px;
+}
+
+.extand {
+    line-height: normal !important;
 }

@@ -12,6 +12,7 @@ $(function () {
 
 function selectActiveMenu(url) {
     var response = ''
+    console.log(url);
     switch (url) {
         case "/index.html":
             response = "index";
@@ -31,8 +32,11 @@ function selectActiveMenu(url) {
         case "/contact.html":
             response = "contact";
             break;
+        case "/":
+            response = "index";
+            break;
         default:
-            response = "";
+            response = "acceuil";
     }
     return response;
 }
